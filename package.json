@@ -8,6 +8,8 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2",
+    "react-reveal": "^1.2.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {
