@@ -1,8 +1,8 @@
 # Build ECommerce Shopping Cart by React & Redux 2020 Edition
 
-Demo: https://reac-shopping-cart-app-final.herokuapp.com
+Demo: https://reactredux-shoppingcart.herokuapp.com/
 
-[Get 90% Discount On This Course At Udemy](https://www.udemy.com/course/build-ecommerce-website-by-react-redux-in-one-hour/?couponCode=BASIR1)
+[Get 90% Discount On This Course At Udemy](https://codingwithbasir.com/udemy-shopping-cart)
 
 ## What you’ll learn
 
