@@ -39,12 +39,15 @@ class App extends React.Component {
   filterProducts = (event) => {
     // impl
     console.log(event.target.value);
+    const sortedProducts = data.products.slice().sort((a, b) => (
+      (this.state.sort === "lowest") ? ((a.price > b.price) ? 1 : -1) : (this.state.sort === "highest") ? ((a.price < b.price) ? 1 : -1) : ((a._id > b._id) ? 1 : -1)
+    ));
     if (event.target.value === "") {
-      this.setState({ size: event.target.value, products: data.products });
+      this.setState({ size: event.target.value, products: sortedProducts });
     } else {
       this.setState({
         size: event.target.value,
-        products: data.products.filter(
+        products: sortedProducts.filter(
           (product) => product.availableSizes.indexOf(event.target.value) >= 0
         ),
       });
