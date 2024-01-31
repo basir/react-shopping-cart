@@ -383,3 +383,4 @@ Demo: https://reactredux-shoppingcart.herokuapp.com/
    37. app.get("/", (req, res) => res.sendFile(\_\_dirname + "/build/index.html"));
    38. git add . && git commit -m "publish"
    39. git push heroku
+
